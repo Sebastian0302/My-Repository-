@@ -1,0 +1,15 @@
+# Archivo de requerimientos de ejemplo para Elevator Manager
+# Formato:  <milisegundos desde que se cargo el archivo>  <comando>
+# Comandos: CALL <piso> <UP|DOWN>  |  GOTO <elevador> <piso>  |  RESET [elevador]
+# Las lineas que empiezan con # son comentarios. Pensado para 3 elevadores y 10 pisos.
+
+0      CALL 5 DOWN
+0      CALL 3 UP
+800    CALL 8 DOWN
+1500   GOTO 1 10
+2500   CALL 2 UP
+4000   GOTO 2 1
+5000   CALL 7 UP
+6500   GOTO 3 9
+8000   CALL 10 DOWN
+9000   CALL 4 DOWN
